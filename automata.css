@@ -55,6 +55,11 @@ div {
     width: 10px;
 }
 
+.result-cell:hover, .parent-cell:hover {
+    border-color: lightgray;
+    cursor: pointer;
+}
+
 
 
 

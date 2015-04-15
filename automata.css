@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    background: rgb(155, 27, 27);
+}
+
+div {
+    
+}
+
+
+
+#rules {
+    width: 9%;
+    margin: .2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: linear-gradient(rgb(111,155,199), rgb(94, 130, 171));
+    float: left;
+    border-radius: 25px;
+}
+
+.rule {
+    height: 25px;
+    clear: both;
+    margin: 5%;
+    margin-bottom: 2%;
+}
+
+.rule-cell, .result-cell {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+
+.on {
+    background: black;
+}
+
+.off {
+    background: white;
+}
+
+.rule-cell {
+    float: left;
+}
+
+.result-cell {
+    float: right;
+}
+
+.parent-cell, .child-cell {
+    float: left;
+    border: 1px solid black;
+    height: 10px;
+    width: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#main {
+    width: 89%;
+    height: 95%;
+    float: right;
+    margin: .2%;
+}
+
+

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="automata.css">
+    <meta charset="UTF-8">
+    <title>One-Dimensional Cellular Automata</title>
+</head>
+
+<body>
+    
+    <div id="rules">
+
+        <div class="rule">
+            <div class="rule-cell on"></div>
+            <div class="rule-cell on"></div>
+            <div class="rule-cell on"></div>
+            <div class="result-cell off"></div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-cell on"></div>
+            <div class="rule-cell on"></div>
+            <div class="rule-cell off"></div>
+            <div class="result-cell off"></div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-cell on"></div>
+            <div class="rule-cell off"></div>
+            <div class="rule-cell on"></div>
+            <div class="result-cell off"></div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-cell off"></div>
+            <div class="rule-cell on"></div>
+            <div class="rule-cell on"></div>
+            <div class="result-cell off"></div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-cell on"></div>
+            <div class="rule-cell off"></div>
+            <div class="rule-cell off"></div>
+            <div class="result-cell off"></div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-cell off"></div>
+            <div class="rule-cell on"></div>
+            <div class="rule-cell off"></div>
+            <div class="result-cell off"></div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-cell off"></div>
+            <div class="rule-cell off"></div>
+            <div class="rule-cell on"></div>
+            <div class="result-cell off"></div>
+        </div>
+
+        <div class="rule">
+            <div class="rule-cell off"></div>
+            <div class="rule-cell off"></div>
+            <div class="rule-cell off"></div>
+            <div class="result-cell off"></div>
+        </div>
+
+
+    </div>
+
+
+
+    <div id="main">
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+        <div class="parent-cell off"></div>
+       
+        <!--100 cells wide -->
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="automata.js"></script>
+</body>
+</html>

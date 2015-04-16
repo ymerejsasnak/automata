@@ -9,7 +9,7 @@ div {
 
 
 
-#rules {
+#rules, #controls {
     width: 9%;
     margin: .2%;
     padding-top: 2%;
@@ -61,21 +61,17 @@ div {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 #main {
     width: 89%;
     height: 95%;
     float: right;
     margin: .2%;
+}
+
+.spacer {
+    height: 0;
+    width: 0;
+    clear: both;
 }
 
 
